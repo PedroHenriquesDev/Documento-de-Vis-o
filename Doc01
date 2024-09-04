@@ -1,0 +1,240 @@
+&lt;Pet shop
+Patinhas &amp; CIA&gt;
+
+Documento
+de Visão
+
+Componentes:
+&lt;Pedro Henriques&gt;
+&lt;Vinicius Costa&gt;
+
+Histórico de Versões
+
+Data Versão Descrição Autor Aprovado por
+&lt;28/08/2024&gt; &lt;0.1&gt; &lt;Início&gt; &lt;Vinicius e
+
+Pedro&gt; &lt;Vinicius&gt;
+
+Sumário
+
+1. INTRODUÇÃO 4
+1.1 REFERÊNCIAS 5
+1.2 TÉCNICAS DE ELICITAÇÃO APLICADAS 6
+2 POSICIONAMENTO 7
+2.1 DEFINIÇÃO DO PROBLEMA 8
+2.2 POSICIONAMENTO DO PRODUTO 9
+3 DESCRIÇÃO DOS STAKEHOLDERS E USUÁRIOS 10
+3.1 STAKEHOLDERS NÃO USUÁRIOS 4
+3.2 STAKEHOLDERS USUÁRIOS 4
+3.3 AMBIENTE DOS USUÁRIOS 5
+3.4 RESUMO DAS PRINCIPAIS NECESSIDADES DOS STAKEHOLDERS 5
+3.5 ALTERNATIVAS 5
+4 VISÃO GERAL DO PRODUTO 5
+4.1 PERSPECTIVA DO PRODUTO 5
+4.2 PREMISSAS E DEPENDÊNCIAS 6
+5 CARACTERÍSTICAS (FEATURES) DO PRODUTO 6
+5.1 &lt;CARACTERÍSTICA 1&gt; 6
+5.2 &lt;CARACTERÍSTICA N&gt; 6
+6 REQUISITOS FUNCIONAIS 6
+6.1 &lt;REQUISITO 1&gt; 6
+6.2 &lt; REQUISITO N&gt; 6
+7 OUTROS REQUISITOS 6
+7.1 REQUISITOS NÃO FUNCIONAIS 7
+7.2 OUTROS 7
+8 DIAGRAMA DE CASO DE USO 7
+9 LISTA DE ANEXOS 7
+
+1. Introdução
+Este documento tem por finalidade coletar, analisar e definir as principais
+necessidades do cliente e as principais características do Site. O documento
+procura demonstrar as características requisitadas pelos interessados e o
+motivo de sua presença neste.
+1.1 Referências
+&lt;descrever os documentos usados como referência para a Elicitação de
+requisitos, incluir datas e número de referência dos anexos&gt;
+Brainstorming com a stakeholder Ana, dona do pet shop, no dia 10/08/24
+Questionário online com gerente e clientes selecionados no dia 11/08/24
+
+1.2 Técnicas de Elicitação Aplicadas
+Questionário e brainstorming
+2 Posicionamento
+2.1 Definição do Problema
+O problema é a falta de informatização de compra e venda da loja. Diminui a
+mão de obra e melhora a organização de dados. Nosso sistema deixa a
+compra e venda mais dinâmica e com mais controle do gerente.
+
+2.2 Posicionamento do Produto
+Automatizar a compra de produtos. Ele resolve o tamanho das filas.
+
+3 Descrição dos Stakeholders e Usuários
+Esta seção apresenta um perfil dos stakeholders e usuários envolvidos no
+projeto e os principais problemas que eles entendem que devam ser atacados
+pela solução proposta.
+3.1 Stakeholders não Usuários
+Tipo Descrição Representantes Observações
+Administração Dona do pet shop Ana Eventualmente
+
+3.2 Stakeholders Usuários
+
+Tipo Descrição Representantes Observações
+Cliente Pessoas que precisam comprar
+
+produtos para pets
+
+Gerente Controle de estoque Carlos
+3.3 Ambiente dos Usuários
+Cliente
+Este ambiente vai permitir a realização de compras de produtos para pets.
+Gerente e Administração
+Controle de produtos vendidos para controle de estoque e criação de
+promoções.
+3.4 Resumo das Principais Necessidades dos Stakeholders
+Necessidade Priorida
+de
+
+Impacto Solução
+Atual
+
+Soluções
+Propostas
+
+Cadastro de clientes Alta Recolher
+
+informações para
+criar conta
+
+Não possui
+cadastro
+
+Inserir as
+informações
+sobre o cliente
+para criar sua
+conta
+
+Pagamento do pedido Alta Realizar pagamento
+dos produtos
+selecionados pelo
+cliente
+
+Pagamento
+em dinheiro
+
+Pagamento em
+cartões e pix
+
+Leitura de qr code Média Saber qual o
+produto está sendo
+comprado
+
+Anotações
+no caderno
+
+Mostrar na tela
+informações
+sobre o produto
+
+Sistema de fidelidade Alta Trazer benefícios ao
+
+cliente
+
+Não possui Reter clientes
+para futuras
+compras
+
+3.5 Alternativas
+
+Caixa automático da loja Renner
+
+4 Visão Geral do Produto
+4.1 Perspectiva do Produto
+
+&lt;descrição do mini-mundo&gt;
+Sistema de caixa automático para pet shop
+
+Em um petshop, a introdução de um sistema de caixa automático pode
+transformar a experiência de compra, oferecendo eficiência e conveniência
+tanto para os clientes quanto para os funcionários. Este sistema, integrado com
+tecnologia moderna, permite que os clientes realizem suas compras de
+maneira rápida e intuitiva.
+Com uma interface amigável, o caixa automático pode exibir informações
+detalhadas sobre os produtos, calcular automaticamente o total da compra e
+processar pagamentos de forma segura através de cartões de crédito ou
+débito. Além disso, pode ser programado para aplicar descontos e promoções,
+além de fornecer recibos digitais.
+Para os funcionários, o sistema reduz a carga de trabalho associada ao registro
+manual de vendas e ao atendimento no balcão, permitindo que eles se
+concentrem em outras áreas do atendimento ao cliente, como orientação sobre
+cuidados com os pets ou a organização de produtos. Em última análise, um
+caixa automático em um petshop não só acelera o processo de checkout, mas
+também melhora a experiência geral do cliente, contribuindo para um ambiente
+mais ágil e eficiente.
+4.2 Premissas e Dependências
+O sistema deve realizar cadastro de clientes e a compra de produtos apenas
+para os clientes, e gerenciar estoque e dados para o gerente.
+4.2.1 Exemplo: o sistema somente permitirá a realização de compras para
+todos os clientes.
+4.2.2 Exemplo: o sistema somente permitirá a realização de controle de
+estoque e visualização de dados para os gerentes e administradores.
+
+5 Características (Features) do Produto
+
+5.1 Cadastro do cliente
+O cliente coloca no sistema suas informações como: endereço,
+cpf, nome. ( cadastro não é obrigatório )
+5.2 Escaneamento do produto
+Passar o produto para que o sistema reconheça suas
+informações.
+
+5.3 Efetuar o pagamento
+O cliente escolhe qual tipo de pagamento deseja fazer, como:
+cartão de crédito, débito ou pix.
+5.4 Enviar notificação ao gerente
+Depois de realizado a compra, uma notificação chega para o
+gerente
+
+6 Requisitos Funcionais
+
+6.1.1 Mostrar imagem e preço
+O sistema deve mostrar a imagem dos produtos e seus preços.
+6.2 Emissão de nota fiscal
+O sistema deve emitir nota fiscal.
+
+7 Outros Requisitos
+Sistema deve ter conexão com algum banco de dados
+O sistema deverá permitir passar o máximo de produtos possíveis
+
+7.1 Requisitos Não Funcionais
+7.1.1 A base de dados deve permitir acesso apenas para usuários
+autorizados.
+7.1.2 O sistema deve estar disponível desde aberto a loja até fechar.
+
+7.1.3 Confiabilidade - Deve ser compatível com outros sistemas utilizados
+pelo petshop, como sistemas de gestão de estoque e software de
+contabilidade.
+7.2 Outros
+7.2.1 Segurança - Implementar criptografia e outras técnicas de segurança
+para proteger as informações de pagamento e dados pessoais dos
+clientes.
+
+7.2.2 Usabilidade - A interface deve ser fácil de usar, com navegação clara e
+instruções visíveis para garantir uma experiência positiva tanto para
+clientes quanto para funcionários.
+
+8 Diagrama de Caso de Uso
+&lt;Colar aqui o diagrama de caso de uso do projeto&gt;
+
+9 Lista de Anexos
+&lt;Listar, se houver, os anexos utilizados para gerar o documento, exemplo ata
+de reunião, brainstorming, etc.&gt;
+
+Data do aceite: ____________/ __________________ / ________________
+
+_______________________________
+Patrocinador do Projeto
+Nome do Cliente
+
+_______________________________
+
+Gerente de Projetos
+Nome do Gerente
