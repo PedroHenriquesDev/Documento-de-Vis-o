@@ -1,0 +1,187 @@
+
+Nome do caso de uso
+UC-01 – Pesquisar produtos 
+Objetivo
+Este caso de uso serve para uma pesquisa detalhada dos produtos da loja
+Ator(es)
+Cliente
+Precondições
+Não Há
+Fluxo Principal
+1. Cliente abre o sistema 
+2. Sistema abre 
+3. Cliente pesquisa produtos no ambiente de pesquisa de produtos 
+4. Sistema pesquisa e gera a lista de produtos
+5.Fim do ciclo
+Fluxo Alternativo
+(4) 
+a. Sistema mostra que não há produtos 
+b. Voltar para passo (3)
+Pontos de Extensão
+Não Há
+Pontos de Inclusão
+Não Há
+Pós-condições
+Lista de produtos realizada
+Regras de negócio
+Não Há
+Fluxo Exceção
+Não Há
+Requisitos não funcionais
+Não Há
+Autor
+Vinicius
+Data de elaboração
+13/11/2024
+Versão
+1.0
+
+
+
+
+
+
+
+
+
+Nome do caso de uso
+UC-02 – Realizar compra
+Objetivo
+Este caso de uso serve para o cliente comprar seus produtos 
+Ator(es)
+Cliente
+Precondições
+Cliente deverá estar na página da lista dos produtos  
+Fluxo Principal
+1. Passo (4) UC01 
+2.Sistema pede informações da cliente para cadastro
+3.Cliente digita suas informações
+4.Sistema abre página com os produtos filtrados
+5. Cliente seleciona os produtos escolhidos 
+6. Sistema abre a página de pagamento 
+7. Cliente realiza a compra 
+8.Fim do ciclo
+Fluxo Alternativo
+1. Passo (4) UC01 
+2.Sistema pede informações da cliente para cadastro
+3.Cliente digita suas informações
+4.Sistema abre página com os produtos filtrados
+5. Cliente seleciona os produtos escolhidos 
+6.Cliente desiste da compra e exclui os produtos 
+7.Sistema exclui produtos
+8.Volta para o passo (3) do UC01
+8.Fim do ciclo
+Pontos de Extensão
+UC01
+Pontos de Inclusão
+Não Há
+Pós-condições
+Compra realizada
+Regras de negócio
+Para comprar produtos deverá estar cadastrado
+Fluxo Exceção
+(3) 
+a. Sistema mostra erro nas informações digitas 
+b. Volta para passo (2) 
+Requisitos não funcionais
+Não Há
+Autor
+Vinicius
+Data de elaboração
+13/11/2024
+Versão
+1.0
+
+
+Nome do caso de uso
+UC-03 - Realizar Pagamento
+Objetivo
+Este caso de uso serve para efetuar o pagamento do cliente ao produto
+Ator(es)
+Cliente
+Precondições
+realizar compra
+Fluxo Principal
+1. Cliente se cadastra no sistema
+2. Sistema salva o perfil do cliente
+3. Cliente pesquisa os produtos
+4. Sistema salva o produto comprado
+5. Cliente realiza o pagamento
+
+
+Fluxo Alternativo
+(3) 
+a. Sistema mostra que não há produtos
+b. Voltar para passo 3
+
+
+Pontos de Extensão
+Não Há
+Pontos de Inclusão
+Não Há
+Pós-condições
+Pagamento em Crédito ou Débito
+Regras de negócio
+Não Há 
+Fluxo Exceção
+Não Há 
+Requisitos não funcionais
+Não Há 
+Autor
+Pedro
+Data de elaboração
+13/11/2024
+Versão
+1.0
+
+
+
+
+
+
+
+
+
+
+
+Descrição de Caso de Uso – Template Manter Versão: 06-11-2024
+
+
+Nome do caso de uso
+UC-04 - Gerenciar produtos da loja
+Objetivo
+Este caso de uso serve para manusear os produtos da loja
+Ator(es)
+Gerente
+Precondições
+Não Há 
+Fluxo Principal
+1. Gerente abre o sistema da loja
+2. Sistema mostra os produtos que estão em estoque
+3. Gerente gerencia produtos da loja
+
+
+Fluxo Alternativo
+(2) 
+1.Voltar ao passo 2, caso não haja produto no estoque
+
+
+Pontos de Extensão
+Não Há
+Pontos de Inclusão
+Não Há
+Pós-condições
+Produtos cadastrados
+Regras de negócio
+Não Há 
+Fluxo Exceção
+Não Há 
+Requisitos não funcionais
+Não Há 
+Autor
+Pedro
+Data de elaboração
+13/11/2024
+Versão
+1.0
+
